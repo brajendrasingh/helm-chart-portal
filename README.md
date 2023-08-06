@@ -19,3 +19,6 @@ Downgrade/rollback: $ helm rollback releaseName(anyString) versionNo(like 1)
 Clean up/delete helm: $ helm delete releaseName
 
 **Revision number**: it is a release number
+For multi service application deployment like this portal having multiple docker services use subcharts concept with dependency tag & create chart for every service in charts folder.
+
+
